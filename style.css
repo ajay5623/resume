@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+}
+html{
+font-size: 100%;
+  
+
+}
+
+
+
+.main-content{
+   min-height:62.5rem;
+   width: 90%;
+   margin: 20px auto; 
+    display: grid;
+   grid-template-rows:62.5rem ;
+   grid-template-columns:20% 80%;
+
+}
+.left-section{
+    padding: 1rem;
+}
+
+.profile-img{
+    display: block;
+    margin: auto;
+    width: 60%;
+    border: 5% solid white;
+    border-radius: 30%;
+    
+}
+.profile-detail{
+  text-align: center;
+  color: white;
+
+}
+.name{
+    font-size: 1.2 rem;
+    font-weight: 700;
+    padding: 0.8rem;
+    text-transform: uppercase;
+}
+.designation{
+text-transform: uppercase;
+font-size: 1rem;
+padding-bottom: 0.5 rem;
+
+}
+.Description{
+    padding: 1rem;
+    font-size: 0.75 rem;
+}
+.socal-media{
+    display:flex;
+    margin: 5% auto;
+}
+.icon{
+    width:3.1rem;
+    padding: 20%;
+    margin: 10%;
+}
+.email-img{
+    
+    height:1rem;
+    margin-top:0.1875rem;    
+}
+.email{
+    color: white;
+    margin-left: 5%;
+}
+.emaildiv{
+    display: flex;
+    margin-top:0.3125rem;
+    margin-bottom:0.3125rem;
+}
+.map{
+    height:1rem;
+    margin-top :0.1875rem;;
+
+}
+.loction{
+    color: white;
+    margin-left:0.1875rem;
+    margin-bottom:0.3125rem;  
+}
+.location-div{
+    display: flex;
+    margin-top:0.3125rem;
+    margin-bottom:0.3125rem;
+}
+.contact-img{
+    height:1rem;
+    margin-top:0.1875rem;
+}
+
+
+.phone{
+    color: white;
+    margin-left:0.3125rem;
+    margin-bottom:0.3125rem;
+}
+.contact-div{
+    display: flex;
+    margin-top:0.3125rem;
+    margin-bottom:0.3125rem;
+}
+h1{
+    color: white;
+}
+.skill-titles{
+ color: white;
+ text-align: center;
+text-transform: uppercase;
+
+}
+
+
+.skill-name{
+    color: white;
+}
+.right-section{
+padding-top: 2rem;
+padding-bottom: 2rem;
+padding-left: 3rem;
+padding-right: 3rem;
+  
+
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5 rem;
+    letter-spacing:0.0625rem;
+}
+@media(min-width:1280px){
+    html{
+        font-size:70%;
+    }
+    .profile-img{
+        width:50%; 
+    }
+    }
+
+@media(max-width:1279px){
+    html{
+        font-size:70%;
+    }
+    .profile-img{
+        width:50%; 
+    }
+    }
+
+
+@media(max-width:998px){
+html{
+    font-size: 62%;
+}
+.profile-img{
+    width:40%; 
+}
+}
+
+
+@media(max-width:768px){
+    html{
+        font-size:50%;
+    }
+    .profile-img{
+        
+        width: 30%;
+       }
+
+
+    }
+@media(max-width:480px){
+    html{
+        font-size:40%;
+    }
+.main-content{
+   grid-template-columns: 100%;
+   grid-template-rows:40% 60%;
+   overflow: auto;
+}
+.profile-img{
+        
+    width: 10%;
+    float: left;
+   }
+   
+
+}
